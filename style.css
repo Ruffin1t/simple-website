@@ -1,0 +1,55 @@
+body {
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+
+section {
+  height: 1020px;
+  width: 480px;
+  border: 1px solid #ccc;
+}
+
+.container {
+  width: 30%; /* Set the width of the container */
+  margin: 0 auto; /* Center the container on the page */
+  padding: 10px; /* Add padding to the container (optional) */
+}
+
+      .blue-button {
+        background-color: #2f91c6;
+        color: white;
+        border: none; /* Remove button border */
+        border-radius: 5px; /* Add rounded corners */
+
+      }
+
+      .orange-button {
+        background-color: rgb(255, 162, 0);
+        color: white;
+        border: none; /* Remove button border */
+        border-radius: 5px; /* Add rounded corners */
+
+      }
+
+      .hello-button {
+        background-color: rgb(255, 0, 217);
+        color: white;
+        border: none; /* Remove button border */
+        border-radius: 10px; /* Add rounded corners */
+        font-size: 20px; /* Font size */
+
+
+      }
+      
+       .hello-button:hover {
+          background-color: #d80909; /* Change to a different color on hover */
+       }
+        .orange-button:hover {
+          background-color: #d80909; /* Change to a different color on hover */
+
+    } 
